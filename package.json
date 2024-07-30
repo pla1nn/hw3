@@ -1,21 +1,21 @@
 {
-  "name": "parcel-template",
+  "name": "hw-9",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://PanasenkoValeriy.github.io/parcel-template",
+  "homepage": "https://pla1nn.github.io/hw-9",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /hw-9/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanasenkoValeriy/parcel-template.git"
+    "url": "git+https://github.com/pla1nn/hw-9.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PanasenkoValeriy/parcel-template/issues"
+    "url": "https://github.com/pla1nn/hw-9/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
