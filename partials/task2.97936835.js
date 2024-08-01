@@ -1,0 +1,2 @@
+const e=document.querySelector(".reg__form");(()=>{const t=JSON.parse(localStorage.getItem("userData"))||{};Object.entries(t).forEach((([t,r])=>{const a=e.querySelector(`input[name="${t}"]`);a&&(a.value=r)}))})(),e.addEventListener("input",(()=>{const t=e.querySelectorAll(".reg__input"),r={};t.forEach((e=>{r[e.name]=e.value})),localStorage.setItem("userData",JSON.stringify(r))})),e.addEventListener("submit",(e=>{e.preventDefault()}));
+//# sourceMappingURL=task2.97936835.js.map
