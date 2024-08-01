@@ -4,7 +4,6 @@ initForm();
 
 form.addEventListener('change', onInputChange);
 
-
 function onInputChange(e) {
     selectedTodos[e.target.name] = e.target.checked;
     localStorage.setItem('selectedTodos', JSON.stringify(selectedTodos))
@@ -22,4 +21,3 @@ function initForm() {
         });
     }
 }
-

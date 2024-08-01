@@ -25,3 +25,13 @@ body {
     font-size: 35px;
     
     }
+
+    input {
+        border: 1px solid #aaa;
+        border-radius: 3px;
+    }
+
+    input:focus {
+        outline: none;
+        border: 1px solid #aaa;
+    }
