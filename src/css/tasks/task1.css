@@ -1,1 +1,16 @@
-img { height: 200px; background-color: #f0f0f0; }
+.img { 
+    height: 400px;
+    background-color:
+    #f0f0f0; 
+    transform: translateX(-100%);
+    transition: transform 500ms linear;
+}
+
+.img.show {
+    transform: translateX(0);
+}
+
+#item {
+    width: 600px;
+}
+
